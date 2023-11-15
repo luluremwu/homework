@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+html{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+    font-family: 微軟正黑體;
+    font-weight: bolder ;
+    
+}
+
 body {
     background-color: #caf0f8;
     margin: 0px;
@@ -19,12 +28,45 @@ main {
     padding: 20px;
 }
 
-.card{
-     background-color: white;
-     padding: 20px;
+.crad1{
+     background-color:white;
+     text-align: center;
+     padding:10px 5px;
      margin: 20px 10px;
+     width: 310px;;
      border-radius: 15px;
      background-size: cover;
+}
+
+.block{
+    display:flex;
+}
+
+.crad2{
+    background-color:white;
+    padding: 10px 10px;
+    margin: 25px 100px 25px 10px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.crad2 h2{
+    display: flex;
+
+}
+
+.crad2 img{
+    position: relative;
+    left: 80%
+}
+
+.crad3{
+    background-color:white;
+    text-align: center;
+    padding:10px 5px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
 }
 
 article {
@@ -32,15 +74,16 @@ article {
     width: 73%;
 }
 
-
-
 aside{
+    position: fixed;
     float: left;
-    width: 25%;
+    width: 10%;
+    margin: 20px;
     text-align:center
 }
 
 nav{
+    border-radius: 15px;
     background-color:#90e0ef
 }
 
@@ -63,5 +106,47 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-
 }
+
+.skillp1{
+    display: flex;
+    font-weight: border;
+    align-items: center;
+    width: 100%;
+    height: 20pt;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-family: 微軟正黑體;
+}
+
+.skills1{
+    height: 10px;
+    width: 120px;
+}
+
+.coli {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    left: 10%;
+  }
+  
+  .codiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }  
+  .cod-cont {
+    height: 130px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: #90e0ef;
+    border-radius: 5px;
+  }
